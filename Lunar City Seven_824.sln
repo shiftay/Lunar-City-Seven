@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lunar City Seven_824", "Lunar City Seven_824.vcxproj", "{EADA130A-96F6-4D92-B05D-450E8388B31C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EADA130A-96F6-4D92-B05D-450E8388B31C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EADA130A-96F6-4D92-B05D-450E8388B31C}.Debug|Win32.Build.0 = Debug|Win32
+		{EADA130A-96F6-4D92-B05D-450E8388B31C}.Release|Win32.ActiveCfg = Release|Win32
+		{EADA130A-96F6-4D92-B05D-450E8388B31C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

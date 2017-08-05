@@ -1,0 +1,36 @@
+﻿Build started 27/08/2016 3:21:30 PM.
+     1>Project "C:\Users\shiftay-PC\Desktop\Lunar City Seven_825\Lunar City Seven_824\Lunar City Seven_824.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt alien.cpp console.cpp main.cpp player.cpp GameWorld.cpp
+         alien.cpp
+         console.cpp
+         main.cpp
+         player.cpp
+     1>player.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>player.cpp(105): warning C4018: '>' : signed/unsigned mismatch
+     1>player.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+         GameWorld.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shiftay-PC\Desktop\Lunar City Seven_825\Lunar City Seven_824\Release\Lunar City Seven_824.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\shiftay-PC\Desktop\Lunar City Seven_825\Lunar City Seven_824\Release\Lunar City Seven_824.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shiftay-PC\Desktop\Lunar City Seven_825\Lunar City Seven_824\Release\Lunar City Seven_824.lib" /MACHINE:X86 /SAFESEH Release\alien.obj
+         Release\console.obj
+         Release\main.obj
+         Release\player.obj
+         Release\GameWorld.obj
+         Generating code
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(812): warning C4715: 'GameWorld::MainHall' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(220): warning C4715: 'GameWorld::Cafeteria' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(1235): warning C4715: 'GameWorld::PPSafety' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(1112): warning C4715: 'GameWorld::PPgenerator' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(683): warning C4715: 'GameWorld::EVAC' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(416): warning C4715: 'GameWorld::airLockB10' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(604): warning C4715: 'GameWorld::SectorZero' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(1459): warning C4715: 'GameWorld::PPCRoom' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(1362): warning C4715: 'GameWorld::PPCooling' : not all control paths return a value
+     1>c:\users\shiftay-pc\desktop\lunar city seven_825\lunar city seven_824\gameworld.cpp(337): warning C4715: 'GameWorld::Barracks' : not all control paths return a value
+         Finished generating code
+         Lunar City Seven_824.vcxproj -> C:\Users\shiftay-PC\Desktop\Lunar City Seven_825\Lunar City Seven_824\Release\Lunar City Seven_824.exe
+     1>Done Building Project "C:\Users\shiftay-PC\Desktop\Lunar City Seven_825\Lunar City Seven_824\Lunar City Seven_824.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38
